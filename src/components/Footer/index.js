@@ -8,13 +8,21 @@ export const Footer = () => {
   return (
     <StyledFooter>
       <SocialMediaWrapper>
-        <Twitter size='2rem' color='#374151' />
-        <Facebook size='2rem' color='#374151' />
-        <Instagram size='2rem' color='#374151' />
-        <Youtube size='2rem' color='#374151' />
+        <Link>
+          <Twitter size='2rem' color='#374151' />
+        </Link>
+        <Link>
+          <Facebook size='2rem' color='#374151' />
+        </Link>
+        <Link>
+          <Instagram size='2rem' color='#374151' />
+        </Link>
+        <Link>
+          <Youtube size='2rem' color='#374151' />
+        </Link>
       </SocialMediaWrapper>
       <LinksWrapper>
-        <Link>Privay</Link>
+        <Link>Privacy</Link>
         <Link>Terms & Conditions</Link>
         <Link>Feedback</Link>
       </LinksWrapper>
